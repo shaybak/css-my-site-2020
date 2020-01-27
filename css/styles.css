@@ -28,6 +28,10 @@ h1 {
   font-family: 'Marcellus', serif;
 }
 
+h2, h3 {
+  font-family: 'Coustard', serif;
+}
+
 p {
   font-family: 'Montserrat', sans-serif;
 }
@@ -35,14 +39,13 @@ p {
 
 .top-container {
   background-color: #a8e6cf;
-  position: relative;
   padding-top: 100px;
+
 }
 
 .middle-container {
   background-color: #dcedc1;
-  height: 200px;
-  width:200px;
+
 }
 
 .bottom-container {
@@ -71,4 +74,9 @@ p {
 .mountains-img {
   width: 600px;
   padding-top: 40px;
+}
+
+.shaydaface-img {
+  width: 200px;
+  border-radius: 50%;
 }

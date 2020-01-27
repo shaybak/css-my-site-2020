@@ -1,2 +1,2 @@
 # css-my-site-2020
-udemy-based practice focused on css properties
+This basic website is a CSS-focused exercise from the Udemy Web Development Course. 

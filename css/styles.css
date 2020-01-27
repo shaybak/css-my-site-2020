@@ -20,8 +20,7 @@ font-family: 'Parisienne', cursive;
 
 body {
     margin: 0;
-    padding: 0;
-    background-color: palegoldenrod;
+    text-align: center;
 }
 
 h1 {
@@ -33,12 +32,11 @@ p {
   font-family: 'Montserrat', sans-serif;
 }
 
-.pro {
-  text-decoration: underline;
-}
 
 .top-container {
   background-color: #a8e6cf;
+  position: relative;
+  padding-top: 100px;
 }
 
 .middle-container {
@@ -54,13 +52,23 @@ p {
 }
 
 .cloud-img {
-  width: 200px
+  width: 200px;
+  position: absolute;
+  left: 60%;
+  top: 25px;
+}
+
+.shaydaname-img {
+  width: 200px;
 }
 
 .dragon-img {
   width: 200px;
+  position: absolute;
+  left: 20%;
 }
 
 .mountains-img {
   width: 600px;
+  padding-top: 40px;
 }

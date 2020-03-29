@@ -32,12 +32,15 @@ h1 {
 h2 {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
+  font-size: 2rem;
+  margin-top: 10px;
   color: #88498f;
 }
 
 h3 {
   font-family: 'Montserrat', sans-serif;
   color: #247ba0;
+  font-size: 1.4rem;
 }
 
 p {
@@ -104,7 +107,7 @@ CONTAINERS
 }
 
 .profile {
-  width: 30%;
+  width: 40%;
   margin: auto;
 }
 
@@ -123,6 +126,16 @@ CONTAINERS
   margin: 50px auto;
   width: 50%;
   text-align: left;
+}
+
+.row1 {
+  margin: 3% auto 5%;
+  padding: 3% auto;
+}
+
+.row2 {
+  margin: 3% auto;
+  padding: 3% auto;
 }
 
 /****************************************************
@@ -170,6 +183,13 @@ IMAGES
   margin-left: 30px;
 }
 
+.portfolio-img {
+  border-radius: 100%;
+  margin-bottom: 3%;
+}
+
+
+
 /****************************************************
 BUTTONS
 *******************/
@@ -188,7 +208,8 @@ BUTTONS
 	font-weight:bold;
 	padding:13px 32px;
 	text-decoration:none;
-	text-shadow:0px 1px 0px #3d768a;
+  text-shadow:0px 1px 0px #3d768a;
+  margin: 2% auto 3%;
 }
 .myButton:hover {
 	background:linear-gradient(to bottom, #44a8cf 5%, #247ba0 100%);
